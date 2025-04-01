@@ -1,0 +1,19 @@
+[package]
+name = "task_scheduler"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+enigo = "0.1.3"  # For keyboard and mouse control
+device_query = "1.1.3"  # For capturing keyboard and mouse input
+csv = "1.3.0"  # For CSV file handling
+chrono = "0.4.34"  # For timestamp handling
+serde = { version = "1.0", features = ["derive"] }  # For serialization
+serde_json = "1.0"  # For JSON serialization
+anyhow = "1.0"  # For error handling
+clap = { version = "4.4", features = ["derive"] }  # For command-line argument parsing
+eframe = "0.26.2"  # For GUI framework
+egui = "0.26.2"  # For GUI widgets
+image = "0.24"  # For image handling
+screenshots = "0.8.5"  # For screen capture
+rfd = "0.12"  # For file dialog
